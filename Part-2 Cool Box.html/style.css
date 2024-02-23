@@ -2,4 +2,21 @@ html {
     font-family: sans-serif;
   }
   
-  /* Your CSS below here */
+  div {
+    /* sizing and position */
+    width: 200px;
+    margin: auto;
+    line-height: 9;
+    /* text */
+    font-size: 1.1rem;
+
+    /* text align and color added */
+    text-align: center;
+    color: white;
+
+    /* Text shadow color added  */
+    text-shadow: 1px 1px 1px black;
+
+    
+  }
+  
