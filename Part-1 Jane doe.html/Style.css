@@ -1,4 +1,4 @@
-<style>
+
       body {
         background-color: #fff;
         color: #333;
@@ -8,13 +8,15 @@
       }
 
       h1 {
-        color: #375e97;
+        color: hotpink;
         font-size: 2em;
         font-family: Georgia, "Times New Roman", Times, serif;
         border-bottom: 1px solid #375e97;
+        border-bottom: 10px dotted purple;
       }
 
       h2 {
+        font-style: italic;
         font-size: 1.5em;
       }
 
@@ -23,12 +25,19 @@
         font-weight: bold;
       }
 
-      a:link,
-      a:visited {
-        color: #fb6542;
+      a:link  {
+          color: pink
       }
 
+
       a:hover {
+        color: green;
         text-decoration: none;
       }
-    </style>
+    
+      .contact-information {
+          background: white;
+          border: 5px solid purple;
+          padding: 5px;
+
+      }
